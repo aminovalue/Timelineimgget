@@ -5,10 +5,10 @@ import os
 import codecs
 import time
 
-consumer_key = "4TmRDKaXwj9itwTnbMNzal7SG"
-consumer_secret = "GsFN7mrWfjCS8EWqDVdcUuHvW0Qnc9r6qcYz6VlTDCBwlsevNx"
-access_key = "915244569800798211-pUeGgPRt97USaMWdV9tuIRYRDx1GG6W"
-access_secret = "RfvLqEsm0gWMKsSVjd5zZXSuNLaNdpr7fEa3JeT09YVem"
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
